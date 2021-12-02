@@ -1,7 +1,7 @@
 .cube{
     height: 200px;
     width: 200px;
-    margin:100px;
+    margin:200px;
     position:relative;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -22,30 +22,29 @@
     width: 100%;
     position: absolute;
     top: 20%;
-    left: 20%;
-    /*transition: all 2s ease-in-out;*/
-    
+    left: 20%;  
 }
 .one{
-    background-color: yellow;
+    
+    background-color: rgb(24, 238, 238);
 }
 .two{
-    background-color: red;
+    background-color: rgb(236, 45, 45);
     transform: rotateY(90deg) translateZ(-100px) translateX(100px);
 }
 .three{
-    background-color: orange;
+    background-color: rgb(246, 175, 42);
     transform: translateZ(-200px);
 }
 .four{
-    background-color: aqua;
+    background-color: whitesmoke;
     transform: rotateY(90deg) translateX(100px) translateZ(100px);
 }
 .five{
-    background-color: rgb(240, 54, 215);
+    background-color: rgb(197, 59, 179);
     transform: rotateX(90deg) translateY(-100px) translateZ(100px);
 }
 .six{
-    background-color: green;
+    background-color: rgb(10, 163, 10);
     transform: rotateX(90deg) translateY(-100px) translateZ(-100px);
 }
